@@ -1,0 +1,9 @@
+# pnpm Workspace Configuration
+# See: https://pnpm.io/workspaces
+
+packages:
+  # Deployable applications
+  - "apps/*"
+  
+  # Shared packages (npm publishable)
+  - "packages/*"
